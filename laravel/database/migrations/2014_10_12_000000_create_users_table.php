@@ -21,7 +21,6 @@ class CreateUsersTable extends Migration
             $table->date('updateddate');
             $table->integer('createduserid');
             $table->integer('updateduserid');
-            $table->rememberToken();
         });
     }
 

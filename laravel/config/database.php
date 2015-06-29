@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'sqlsrv'),
 
     /*
     |--------------------------------------------------------------------------
@@ -77,7 +77,7 @@ return [
 
         'sqlsrv' => [
             'driver'   => 'sqlsrv',
-            'host'     => env('DB_HOST', 'Aika-Ito\SQLEXPRESS'),
+            'host'     => env('DB_HOST', 'localhost'),
             'database' => env('DB_DATABASE', 'VXR_TEST_DB'),
             'username' => env('DB_USERNAME', 'sa'),
             'password' => env('DB_PASSWORD', '123456'),
